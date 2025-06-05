@@ -1,0 +1,26 @@
+div{
+    /* properties: value */
+    background-color: brown;
+    width:450px;
+    height:100px;
+    margin:20px;
+}
+
+
+#firstSection{
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.studentSection{
+    border: 2px dotted black;
+    border-radius: 8px;
+}
+
+section p{
+    color:chocolate
+}
+
+section#firstSection{
+    border: 2px dotted cyan;
+}

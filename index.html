@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head> <!-- instructions for web browser -->
+        <meta name="viewport" content="width=device-width"> <!-- To ensure responsiveness, mobile-friendly -->
+        <meta name="author" content="Femi"> <!-- To give name of author of document -->
+        <meta name="description" content="WIT HTML/CSS practice">
+        <meta charset="UTF-8">
+        <title>First HTML practice code</title>
+        <link href="./style.css" rel="stylesheet"> <!-- link from CSS file -->
+    </head>
+    <body> <!-- content for webpage -->
+
+        <!-- Div (essentially containers)-->
+        <!-- <div style="background-color: blue;">
+            hello one
+        </div>
+        <div style="background-color: green;">
+            hello two
+        </div> -->
+
+        <!-- Span -->
+        <!-- <span style="background-color: blueviolet;">Span one</span>
+        <span style="background-color: greenyellow;">Span two</span>
+        <p>My name is <span style="color: brown;">Amrita</span></p> -->
+
+        <!-- Header -->
+        <!-- <header>
+            This is a header tag
+        </header> -->
+
+        <!-- Text styles -->
+        <!-- <h1>This is a H1</h1>
+        <h2>This is a H2</h2>
+        <h3>This is a H3</h3>
+        <h4>This is a H4</h4>
+        <h5>This is a H5</h5>
+        <h6>This is a H6</h6>
+        <p>This is a paragraph</p> -->
+
+        <!-- List -->
+        <!-- Unordered list -->
+        <!-- <p>List of students</p>
+        <ul>
+            <li>Faranak</li>
+            <li>Amrita</li>
+            <li>Ellie</li>
+            <li>Cindy</li>
+            <li>Hyejin</li>
+        </ul> -->
+        <!-- Ordered List -->
+        <!-- <p>List of courses</p>
+        <ol type="a">
+            <li>Scratch</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ol> -->
+
+        <!-- Anchor tag -->
+         <!-- <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn Profile</a> href - attribute -->
+
+        <!-- Table -->
+         <table border="1">
+            <thead> 
+                <tr>
+                    <th>S/N</th>  <!-- Heading - <th> -->
+                    <th>Name</th>
+                    <th>Country</th>
+                    <th>Hobby</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>  <!-- Data - <td> -->
+                    <td>Sarah</td>
+                    <td>Uganda</td>
+                    <td>Listening to Music</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Amrita</td>
+                    <td>India</td>
+                    <td>Reading</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>North America</td>
+                    <td>26 students</td>
+                    <td>Introvert</td>
+                </tr>
+            </tfoot>
+         </table>
+         <br>
+         <br>
+         <!-- Forms -->
+          <form action="/login", method="POST"> <!-- when getting data -> method: GET; when submitting/sending data -> method: POST -->
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label>Python:</label>
+                <input type="checkbox">
+            </div>
+            <div>
+                <label>Javascript:</label>
+                <input type="checkbox">
+            </div>
+            <div class="studentSection">
+                <label>Python:</label>
+                <input type="checkbox">
+            </div>
+             <div>
+                <label>HTML:</label>
+                <input type="checkbox">
+            </div>
+             <div>
+                <label>Diet options:</label>
+                <label for="yes">Yes:</label>
+                <input type="radio" id="yes" name="diet-options">
+                <label for="no">No:</label>
+                <input type="radio" id="no" name="diet-options">
+            </div>
+            <!-- <button>Submit</button> -->
+            <input type="submit" value="Submit">
+          </form>
+
+          <section id="firstSection">
+            This is a section
+          </section>
+          <section class="studentSection">
+            This is a student section class
+            <p> This is a paragraph inside a section.</p>
+          </section>
+    </body>
+</html>
