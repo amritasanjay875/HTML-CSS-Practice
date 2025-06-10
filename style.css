@@ -1,6 +1,18 @@
+:root{
+    --background-color: green;
+}
+
 html, body{
     height: 100%;
     width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
 }
 
 .card{
@@ -11,6 +23,7 @@ html, body{
     border-radius: 8px;
     margin: 10px;
     position: relative;
+    overflow: hidden;
 }
 
 .card .left-info img{
@@ -24,11 +37,11 @@ html, body{
     width: 150px;
     height: 100%;
     position: relative;
-    background-color: blue;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    background: var(--background-color);
 }
 
 .card .left-info #user-level, .card .left-info #user-points{
